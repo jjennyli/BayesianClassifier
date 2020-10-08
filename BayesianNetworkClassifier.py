@@ -21,7 +21,7 @@ for i in range(2):
     for j in range(w):
         a[i].append(0)
 
-for x in range(0, 14):
+for x in range(0, n):
     if df.iloc[x].iat[w + 1] == 'Yes':
         nYes = nYes + 1
         for y in range(0, w):
